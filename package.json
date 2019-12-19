@@ -1,0 +1,29 @@
+{
+  "name": "material-color-tool",
+  "version": "1.0.0",
+  "description": "Generate a spec-compliant Material Design palette from a source color",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": "Ignigena/material-color-tool",
+  "author": "Albert Martin <albert@imor.tl>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.x"
+  },
+  "dependencies": {
+    "color-convert": "github:Ignigena/color-convert#fix/precision",
+    "color-diff": "^1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.7.2",
+    "eslint-config-standard": "^14.0.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-jest": "^23.1.1",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "jest": "^24.9.0"
+  }
+}
