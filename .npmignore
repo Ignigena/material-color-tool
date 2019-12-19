@@ -1,0 +1,6 @@
+.editorconfig
+.eslintrc.json
+.github
+coverage/
+test/
+jest.config.js
