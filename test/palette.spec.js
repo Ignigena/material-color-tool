@@ -27,6 +27,7 @@ it('uses the correct Material palette when appropriate', () => {
 it('generates spec-compliant palettes from custom colors', () => {
   expect([
     makePalette('#1E242D'), // Dark
+    makePalette('#4A4A4A'), // Dark
     makePalette('#EFF0EF') // Light
   ]).toMatchSnapshot('Dark and Light')
 
