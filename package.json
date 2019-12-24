@@ -1,6 +1,6 @@
 {
   "name": "material-color-tool",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Generate a spec-compliant Material Design palette from a source color",
   "main": "lib/index.js",
   "scripts": {
